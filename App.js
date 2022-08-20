@@ -123,15 +123,12 @@ const App = () => {
       </View>
       <View
         style={{flex: 0.05, justifyContent: 'center', alignItems: 'center'}}>
-        {!clouds ? (
-          <Text
-            style={{fontFamily: FONT.regular, fontSize: 15}}
-            onPress={() => refreshScreen()}>
-            ↻Tap to refresh
-          </Text>
-        ) : (
-          <></>
-        )}
+        {/* {!clouds ? ( */}
+        <Text
+          style={{fontFamily: FONT.regular, fontSize: 15}}
+          onPress={() => refreshScreen()}>
+          ↻Tap to refresh
+        </Text>
       </View>
       <View style={{flex: 0.32}}>
         <ScrollView
